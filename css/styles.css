@@ -2,10 +2,16 @@
 /*-----------------------css for body section-------------------------------*/
 /***************************************************************************/
 body{
-  background-image: url(../images/white.jpg);
+  background-image: url(../images/dark.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  text-align: center;
+  padding: 0;
+  font-family: 'Montserrat Alternates', sans-serif;
+  
 }
+
+
 
 /*****************************************************************************/
 /*---------------------css for title section--------------------------------*/
@@ -15,13 +21,46 @@ body{
   text-align: center;
   padding: 0;
   font-family: 'Montserrat Alternates', sans-serif;
+  color: rgb(223, 220, 220);
 }
-.titleInfo{
 
+#contact-me{
+  text-align: center;
+  padding: 100px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: rgb(223, 220, 220);
+  position: relative;
+  margin-top: -30px;
+  height:30px;
+  clear:both;
+}
+
+#contact-me2{
+  text-align: center;
+  align-self: center;
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: rgb(223, 220, 220);
+  position: relative;
+  margin-top: -60px;
+  height:60px;
+  clear:both;
+}
+
+.icon{
+  padding: 10px 15px 10px 15px;
+  color: rgb(223, 220, 220);
+  align-content: center;
+}
+.icon:hover{
+  background-color: black;
+  color: rgb(223, 220, 220);
+  font-size: 50px;
+  transition: 0.5s;
 }
 
 .extraInfo{
   padding: 8% 20%;
+  color: rgb(223, 220, 220);
 }
 .navbar{
   margin-bottom: 3rem;
@@ -35,7 +74,10 @@ body{
   text-align: center;
   padding: 0;
   font-family: 'Montserrat Alternates', sans-serif;
+  color: rgb(223, 220, 220);
+  
 }
+
 
 .icons{
   margin-bottom: 2.5rem;
@@ -47,11 +89,14 @@ body{
   transition: 0.3s;
 }
 #moreStuff p{
-  color: black;
+  
+  color: rgb(223, 220, 220);
 }
 #moreStuff a{
   color: inherit;
 }
+
+
 /*****************************************************************************/
 /*---------------------css for basic carasol section------------------------*/
 /***************************************************************************/
@@ -62,14 +107,24 @@ body{
   font-family: 'Montserrat Alternates', sans-serif;
 }
 
+#basic-info p{
+  color: rgb(223, 220, 220);
+}
+
+#basic-info h2{
+  color: rgb(223, 220, 220);
+}
+
 .carousel-item{
 
   padding: 8% 13%;
   font-size: 1.5rem;
+  color: rgb(223, 220, 220);
 }
 
 .carabutton{
   filter: invert(100%);
+  color: rgb(223, 220, 220);
 }
 
 /*****************************************************************************/
@@ -108,4 +163,18 @@ h3{
 
 h5{
   text-align: center;
+}
+
+
+#qual{
+  color: rgb(223, 220, 220);
+}
+
+#nsc{
+  color: rgb(223, 220, 220);
+}
+
+hr{
+  background-color: rgb(223, 220, 220);
+  border-color: rgb(223, 220, 220);
 }
