@@ -130,6 +130,14 @@ body{
   color: rgb(223, 220, 220);
 }
 
+.my-img{
+  border-radius: 50%;
+  border-width: 10px;
+  border-color: rgb(223, 220, 220);
+  width: 200px;
+  height: 200px;
+}
+
 /*****************************************************************************/
 /*---------------------css for basic myProjects section---------------------*/
 /***************************************************************************/
@@ -188,4 +196,18 @@ h5{
 hr{
   background-color: rgb(223, 220, 220);
   border-color: rgb(223, 220, 220);
+}
+
+#buttons{
+  text-align: center;
+}
+
+@media (max-width: 40px){
+  #buttons{
+    text-align: center;
+    padding: 5px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: rgb(223, 220, 220);
+    clear:both;
+  }
 }
